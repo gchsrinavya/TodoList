@@ -1,0 +1,113 @@
+/* App-wide styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.App-content {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.App-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Todo List styles */
+.todo-list {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.todo-list h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+}
+
+.task-list {
+  margin-bottom: 20px;
+}
+
+/* Todo Item styles */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.todo-item p {
+  margin: 0;
+  flex-grow: 1;
+  padding: 0 10px;
+}
+
+.todo-item button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.todo-item button:hover {
+  background-color: darkred;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Input and Button styles */
+.add-task {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-input {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-task-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-task-button:hover {
+  background-color: #45a049;
+}
